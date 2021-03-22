@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node10/tsconfig.json",
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "composite": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "types": ["jest", "node"]
+  }
+}

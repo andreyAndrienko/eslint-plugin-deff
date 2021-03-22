@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`plugin should match expected export 1`] = `
+Object {
+  "diff": Object {
+    "ignorePatterns": Array [],
+    "overrides": Array [
+      Object {
+        "files": Array [
+          "*",
+        ],
+        "processor": "diff/diff",
+      },
+    ],
+    "plugins": Array [
+      "diff",
+    ],
+  },
+  "staged": Object {
+    "ignorePatterns": Array [],
+    "overrides": Array [
+      Object {
+        "files": Array [
+          "*",
+        ],
+        "processor": "diff/staged",
+      },
+    ],
+    "plugins": Array [
+      "diff",
+    ],
+  },
+}
+`;
+
+exports[`plugin should match expected export 2`] = `
+Object {
+  "diff": Object {
+    "postprocess": [Function],
+    "supportsAutofix": true,
+  },
+  "staged": Object {
+    "postprocess": [Function],
+    "supportsAutofix": true,
+  },
+}
+`;
