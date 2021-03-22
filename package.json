@@ -8,13 +8,13 @@
     "eslint-plugin",
     "diff"
   ],
-  "homepage": "https://github.com/paleite/eslint-plugin-diff#readme",
+  "homepage": "https://github.com/andreyAndrienko/eslint-plugin-diff#readme",
   "bugs": {
-    "url": "https://github.com/paleite/eslint-plugin-diff/issues"
+    "url": "https://github.com/andreyAndrienko/eslint-plugin-diff/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paleite/eslint-plugin-diff.git"
+    "url": "git+https://github.com/andreyAndrienko/eslint-plugin-diff.git"
   },
   "license": "MIT",
   "author": "Patrick Eriksson <paleite@users.noreply.github.com> (https://github.com/paleite)",

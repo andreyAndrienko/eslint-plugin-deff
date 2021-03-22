@@ -55,7 +55,7 @@ const staged = {
   ): Linter.LintMessage[] => {
     const shouldKeepFile = getDiffFileList().includes(filename);
 
-    return shouldKeepFile
+    const result =  shouldKeepFile
       ? messages
           .map((message) =>
             message.filter(({ fatal, line }) => {
@@ -68,6 +68,10 @@ const staged = {
           )
           .reduce((a, b) => a.concat(b), [])
       : [];
+
+    console.log(result);
+
+    return result;
   },
 
   supportsAutofix: true,
